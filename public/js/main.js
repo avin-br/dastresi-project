@@ -1,5 +1,5 @@
 import Header from "./header/header.js";
-import Slider from "./slider/Slider.js";
+import Slider from "./slider/slider.js";
 import Discount from "./discount/discount.js";
 import Categories from "./categories/categories.js";
 import Mojud from "./mojud/mojud.js";
