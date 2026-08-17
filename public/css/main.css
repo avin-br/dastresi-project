@@ -1,0 +1,365 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: shabnam;
+  src: url(../fonts/Shabnam-FD.woff);
+}
+
+body {
+  font-family: shabnam;
+}
+
+@utility container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@utility container1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@theme {
+  --color-red: #fe5f55;
+  --color-darkgray: #666666;
+}
+
+.desktop-submenu {
+  overflow: visible;
+}
+
+.desktop-submenu > div > a:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.swiper-pagination {
+  bottom: 12px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+
+  background: white !important;
+  opacity: 1 !important;
+
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: #313131 !important;
+}
+
+.mySwiper .swiper-slide {
+  opacity: 0 !important;
+  transition: opacity 1.5s ease-in-out !important;
+}
+
+.mySwiper .swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.custom-swiper-btn {
+  width: 40px !important;
+  height: 40px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  position: absolute !important;
+  top: 50% !important;
+
+  transform: translateY(-50%) !important;
+
+  z-index: 20 !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 50% !important;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.custom-swiper-btn::after {
+  display: none !important;
+}
+
+.custom-swiper-btn svg {
+  width: 13px !important;
+  height: 13px !important;
+
+  display: block !important;
+
+  fill: none !important;
+
+  stroke: #9ca3af !important;
+
+  stroke-width: 2 !important;
+
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.custom-swiper-btn:hover {
+  background: #e5e7eb !important;
+}
+
+.custom-swiper-btn:hover svg {
+  stroke: #000 !important;
+}
+
+.availableSwiper {
+  position: relative;
+}
+
+.available-prev {
+  left: -20px !important;
+  right: auto !important;
+}
+
+.available-next {
+  right: -20px !important;
+  left: auto !important;
+}
+
+.selectedCategoriesSwiper {
+  position: relative !important;
+
+  height: 180px !important;
+}
+
+.selectedCategoriesSwiper .swiper-wrapper {
+  height: 100% !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+}
+
+.selectedCategoriesSwiper .swiper-slide {
+  height: 100% !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.selectedCategoriesSwiper .swiper-slide img {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.selectedCategoriesSwiper .swiper-button-prev {
+  left: 10px !important;
+  right: auto !important;
+
+  top: 50% !important;
+
+  transform: translateY(-50%) !important;
+}
+
+.selectedCategoriesSwiper .swiper-button-next {
+  right: 10px !important;
+  left: auto !important;
+
+  top: 50% !important;
+
+  transform: translateY(-50%) !important;
+}
+
+@media (max-width: 767px) {
+  .available-prev {
+    left: -10px !important;
+  }
+
+  .available-next {
+    right: -10px !important;
+  }
+
+  .selectedCategoriesSwiper .swiper-button-prev {
+    left: -10px !important;
+  }
+
+  .selectedCategoriesSwiper .swiper-button-next {
+    right: -10px !important;
+  }
+}
+
+.bestSellingSwiper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.bestSellingSwiper .swiper-slide {
+  height: auto;
+}
+
+.best-selling-prev {
+  left: -20px !important;
+  right: auto !important;
+}
+
+.best-selling-next {
+  right: -20px !important;
+  left: auto !important;
+}
+
+@media (max-width: 767px) {
+  .best-selling-prev {
+    left: -10px !important;
+  }
+
+  .best-selling-next {
+    right: -10px !important;
+  }
+}
+
+.brands-slider-wrapper {
+  position: relative;
+  padding: 10px 0 20px;
+}
+
+.brands-slider-clip {
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0 15px;
+}
+
+.brandsSwiper {
+  width: 100%;
+  overflow: visible !important;
+}
+
+.brandsSwiper .swiper-wrapper {
+  align-items: center;
+}
+
+.brandsSwiper .swiper-slide {
+  height: auto;
+  overflow: visible;
+}
+
+.brand-card {
+  height: 110px !important;
+  transition: transform 0.25s ease;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brands-prev {
+  left: -20px !important;
+  right: auto !important;
+}
+
+.brands-next {
+  right: -20px !important;
+  left: auto !important;
+}
+
+@media (max-width: 767px) {
+  .brands-prev {
+    left: -10px !important;
+  }
+
+  .brands-next {
+    right: -10px !important;
+  }
+}
+
+.articlesSwiper {
+  width: 100%;
+  overflow: hidden !important;
+  padding: 8px 4px 12px !important;
+  margin: 0 !important;
+}
+
+.articlesSwiper .swiper-wrapper {
+  padding: 0 !important;
+}
+
+.articlesSwiper .swiper-slide {
+  height: auto;
+  overflow: visible !important;
+}
+
+.article-card {
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.article-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.articles-pagination {
+  position: static !important;
+  margin-top: 18px !important;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+}
+
+.articles-pagination .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+
+  margin: 0 !important;
+
+  background: #d1d5db !important;
+  opacity: 1 !important;
+}
+
+.articles-pagination .swiper-pagination-bullet-active {
+  background: #000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c5282;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #23466f;
+}
+
+::-webkit-scrollbar-button {
+  height: 12px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background-color: #f5f5f5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 8 8'%3E%3Cpath d='M1 5L4 2L7 5Z' fill='%232c5282'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-color: #f5f5f5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 8 8'%3E%3Cpath d='M1 3L4 6L7 3Z' fill='%232c5282'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}

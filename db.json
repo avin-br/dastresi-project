@@ -1,0 +1,790 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "خانه",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "لوازم جانبی موبایل و کامپیوتر",
+      "link": "#",
+      "children": [
+        {
+          "title": "کابل شارژ",
+          "children": [
+            "کابل شارژ میکرو یو اس بی",
+            "کابل شارژ تایپ سی",
+            "کابل شارژ لایتنینگ",
+            "کابل شارژ دو سر تایپ سی",
+            "کابل شارژ تایپ سی به لایتنینگ",
+            "کابل شارژ سه کاره",
+            "کابل شارژ سامسونگ",
+            "کابل شارژ آیفون"
+          ]
+        },
+        {
+          "title": "هولدر و نگهدارنده"
+        },
+        {
+          "title": "تجهیزات ذخیره سازی"
+        },
+        {
+          "title": "هندزفری و هدست، میکروفون",
+          "children": [
+            "میکروفون",
+            "هندزفری سیم دار",
+            "هدست سیم دار",
+            "هدفون بلوتوث",
+            "هندزفری بلوتوثی",
+            "هندزفری بلوتوث دورگردنی",
+            "هندزفری بلوتوث تک گوش"
+          ]
+        },
+        {
+          "title": "پاوربانک"
+        },
+        {
+          "title": "اسپیکر"
+        },
+        {
+          "title": "ماوس و کیبورد و پدموس"
+        },
+        {
+          "title": "آداپتور و شارژر",
+          "children": [
+            "شارژر دیواری",
+            "شارژر وایرلس",
+            "شارژر رومیزی",
+            "شارژر فندکی",
+            "شارژر سامسونگ",
+            "شارژر آیفون"
+          ]
+        },
+        {
+          "title": "دسته بازی و خنک کننده موبایل"
+        },
+        {
+          "title": "انواع تبدیل برق"
+        },
+        {
+          "title": "کابل و دانگل انتقال تصویر"
+        },
+        {
+          "title": "هاب تایپ سی و یو اس بی"
+        },
+        {
+          "title": "فن خنک کننده کامپیوتر"
+        },
+        {
+          "title": "قاب و گلس"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "کابل - مبدل - رابط",
+      "link": "#",
+      "children": [
+        {
+          "title": "کابل HDMI"
+        },
+        {
+          "title": "کابل پرینتر"
+        },
+        {
+          "title": "کابل هارد اکسترنال"
+        },
+        {
+          "title": "انواع رابط و تبدیل"
+        },
+        {
+          "title": "کابل AUX"
+        },
+        {
+          "title": "کابل 2 به 1 صدا"
+        },
+        {
+          "title": "کابل اپتیکال"
+        },
+        {
+          "title": "کابل و فیش OTG"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "لوازم تولید محتوا",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "لوازم شبکه",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "کنسول بازی و لوازم جانبی",
+      "link": "#",
+      "children": [
+        {
+          "title": "دسته بازی"
+        },
+        {
+          "title": "هندزفری و هدست"
+        },
+        {
+          "title": "موس و کیبورد"
+        },
+        {
+          "title": "کیف"
+        },
+        {
+          "title": "کنسول"
+        },
+        {
+          "title": "شارژر دسته بازی"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "لوازم خانگی و شخصی",
+      "link": "#",
+      "children": [
+        {
+          "title": "انواع گجت های جذاب"
+        },
+        {
+          "title": "ماشین اصلاح سر و صورت"
+        },
+        {
+          "title": "باتری و شارژر",
+          "children": [
+            "باتری آلکالاین",
+            "باتری ساده",
+            "باتری شارژی",
+            "شارژر باتری",
+            "باتری سکه ای"
+          ]
+        },
+        {
+          "title": "اندروید باکس و گیرنده دیجیتال"
+        },
+        {
+          "title": "مچ بند و ساعت هوشمند"
+        },
+        {
+          "title": "محصولات کمبو"
+        },
+        {
+          "title": "اف ام پلیر"
+        },
+        {
+          "title": "رابط برق و USB"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "برند‌ها",
+      "link": "#"
+    }
+  ],
+
+  "brands": [
+    {
+      "id": 1,
+      "name": "هایلو",
+      "english": "Haylou"
+    },
+    {
+      "id": 2,
+      "name": "دای هارد",
+      "english": "Die Hard"
+    },
+    {
+      "id": 3,
+      "name": "اسکال کندی",
+      "english": "SkullCandy"
+    },
+    {
+      "id": 4,
+      "name": "اپل",
+      "english": "Apple"
+    },
+    {
+      "id": 5,
+      "name": "کملیون",
+      "english": "Camelion"
+    },
+    {
+      "id": 6,
+      "name": "کلومن پلاس",
+      "english": "Koluman Plus"
+    },
+    {
+      "id": 7,
+      "name": "یسیدو",
+      "english": "yesido"
+    },
+    {
+      "id": 8,
+      "name": "نزتک",
+      "english": "Naztech"
+    },
+    {
+      "id": 9,
+      "name": "پرووان",
+      "english": "ProOne"
+    },
+    {
+      "id": 10,
+      "name": "ال دی نیو",
+      "english": "Ldnio"
+    },
+    {
+      "id": 11,
+      "name": "دوراسل",
+      "english": "Duracell"
+    },
+    {
+      "id": 12,
+      "name": "سومو",
+      "english": "Somo"
+    },
+    {
+      "id": 13,
+      "name": "بیسوس",
+      "english": "Baseus"
+    },
+    {
+      "id": 14,
+      "name": "بویا",
+      "english": "Boya"
+    },
+    {
+      "id": 15,
+      "name": "مک دودو",
+      "english": "Mcdodo"
+    },
+    {
+      "id": 16,
+      "name": "پاورولوژی",
+      "english": "Powerology"
+    },
+    {
+      "id": 17,
+      "name": "راوپاور",
+      "english": "Ravpower"
+    },
+    {
+      "id": 18,
+      "name": "آکی",
+      "english": "Aukey"
+    },
+    {
+      "id": 19,
+      "name": "انکر",
+      "english": "Anker"
+    },
+    {
+      "id": 20,
+      "name": "آینوبن",
+      "english": "inoben"
+    },
+    {
+      "id": 21,
+      "name": "مومکس",
+      "english": "Momax"
+    },
+    {
+      "id": 22,
+      "name": "وسترن دیجیتال",
+      "english": "Western Digital"
+    },
+    {
+      "id": 23,
+      "name": "شیائومی",
+      "english": "Xiaomi"
+    },
+    {
+      "id": 24,
+      "name": "پاناسونیک",
+      "english": "Panasonic"
+    },
+    {
+      "id": 25,
+      "name": "نیکین",
+      "english": "Neekin"
+    },
+    {
+      "id": 26,
+      "name": "پایونیر",
+      "english": "pioneer"
+    },
+    {
+      "id": 27,
+      "name": "جی پی",
+      "english": "GP"
+    },
+    {
+      "id": 28,
+      "name": "ای فورتک",
+      "english": "A4tech"
+    },
+    {
+      "id": 29,
+      "name": "وان مور",
+      "english": "1more"
+    },
+    {
+      "id": 30,
+      "name": "مکسل",
+      "english": "Maxell"
+    }
+  ],
+
+  "basket": {
+    "count": 0
+  },
+
+  "slider": [
+    {
+      "id": 1,
+      "image": "/images/slider1.jpg",
+      "alt": "بنر اول"
+    },
+    {
+      "id": 2,
+      "image": "/images/slider2.jpg",
+      "alt": "بنر دوم"
+    },
+    {
+      "id": 3,
+      "image": "/images/slider3.jpg",
+      "alt": "بنر سوم"
+    },
+    {
+      "id": 4,
+      "image": "/images/slider4.jpg",
+      "alt": "بنر چهارم"
+    },
+    {
+      "id": 5,
+      "image": "/images/slider5.jpg",
+      "alt": "بنر پنجم"
+    }
+  ],
+
+  "dailyDiscounts": [
+    {
+      "id": 1,
+      "image": "/images/discount1.jpg",
+      "title": "پنکه کمری شارژی مدل ZAY-F013",
+      "oldPrice": "2,490,000",
+      "discount": "500,000",
+      "price": "1,990,000"
+    },
+    {
+      "id": 2,
+      "image": "/images/discount2.jpg",
+      "title": "پاوربانک 20 هزار 22.5 واتی مک دودو",
+      "oldPrice": "4,490,000",
+      "discount": "500,000",
+      "price": "3,990,000"
+    },
+    {
+      "id": 3,
+      "image": "/images/discount3.jpg",
+      "title": "اینورتر 300 واتی پاورولوژی",
+      "oldPrice": "11,630,000",
+      "discount": "4,850,000",
+      "price": "6,780,000"
+    },
+    {
+      "id": 4,
+      "image": "/images/discount4.jpg",
+      "title": "لامپ 9W حبابی اضطراری شارژی",
+      "oldPrice": "1,190,000",
+      "discount": "300,000",
+      "price": "890,000"
+    }
+  ],
+
+  "selectedCategories": [
+    {
+      "id": 1,
+      "image": "/images/cable.png",
+      "title": "کابل شارژ"
+    },
+    {
+      "id": 2,
+      "image": "/images/adaptor.png",
+      "title": "آداپتور و شارژر"
+    },
+    {
+      "id": 3,
+      "image": "/images/powerbank.png",
+      "title": "پاوربانک"
+    },
+    {
+      "id": 4,
+      "image": "/images/handsfree.png",
+      "title": "هندزفری و هدست، میکروفون"
+    },
+    {
+      "id": 5,
+      "image": "/images/holder.png",
+      "title": "هولدر و نگهدارنده"
+    },
+    {
+      "id": 6,
+      "image": "/images/mobadel.png",
+      "title": "کابل - مبدل - رابط"
+    },
+    {
+      "id": 7,
+      "image": "/images/battery.png",
+      "title": "باتری و شارژر"
+    },
+    {
+      "id": 8,
+      "image": "/images/gaming.png",
+      "title": "کنسول بازی و لوازم جانبی"
+    }
+  ],
+
+  "availableProducts": [
+    {
+      "id": 1,
+      "title": "کابل HDMI به VGA مک دودو مدل Mcdodo",
+      "category": "کابل - مبدل - رابط",
+      "image": "/images/MCDODO-7770-11.jpg",
+      "price": "1,590,000",
+      "oldPrice": "2,090,000",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 2,
+      "title": "اسپیکر بلوتوثی 16 واتی Select 3 انکر",
+      "category": "اسپیکر",
+      "image": "/images/anker3172-11.jpg",
+      "price": "7,880,000",
+      "oldPrice": "",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 3,
+      "title": "اسپیکر بلوتوثی انکر سلکت 4 گو",
+      "category": "اسپیکر",
+      "image": "/images/GO4ANKER-11.jpg",
+      "price": "3,540,000",
+      "oldPrice": "",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 4,
+      "title": "چراغ خواب پروژکتوری کهکشانی گرین",
+      "category": "انواع گجت های جذاب",
+      "image": "/images/greeen-2222.jpg",
+      "price": "2,550,000",
+      "oldPrice": "",
+      "available": true,
+      "colors": ["#008000"]
+    },
+    {
+      "id": 5,
+      "title": "هولدر وکیوم چرخش 360 درجه مک دودو",
+      "category": "هولدر و نگهدارنده",
+      "image": "/images/MCDODO-8420-11.jpg",
+      "price": "1,640,000",
+      "oldPrice": "",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 6,
+      "title": "ساعت هوشمند مک دودو مدل Mcdodo IW-...",
+      "category": "انواع گجت های جذاب",
+      "image": "/images/mcdodo-757-11.jpg",
+      "price": "5,100,000",
+      "oldPrice": "",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 7,
+      "title": "جامپ استارتر و پمپ باد 15200 میلی آمپر",
+      "category": "انواع گجت های جذاب",
+      "image": "/images/PORO4KARE-111.jpg",
+      "price": "15,500,000",
+      "oldPrice": "",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 8,
+      "title": "رابط برق 4 خانه 10 متری پرودو",
+      "category": "رابط برق و USB",
+      "image": "/images/PORODO10M-11.jpg",
+      "price": "",
+      "oldPrice": "",
+      "available": false,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 9,
+      "title": "پمپ باد گرین INFLATOR مدل Green Lion",
+      "category": "انواع گجت های جذاب",
+      "image": "/images/POMP-GREEN-11.jpg",
+      "price": "6,720,000",
+      "oldPrice": "7,500,000",
+      "available": true,
+      "colors": ["#000000"]
+    },
+    {
+      "id": 10,
+      "title": "شارژر رومیزی 140 واتی الدینیو",
+      "category": "شارژر رومیزی",
+      "image": "/images/Q4010-11.jpg",
+      "price": "",
+      "oldPrice": "",
+      "available": false,
+      "colors": ["#000000", "#FFFFFF"]
+    },
+    {
+      "id": 11,
+      "title": "پاوربانک 27600 میلی آمپر 130 واتی",
+      "category": "پاوربانک",
+      "image": "/images/ORAIMO725-11.jpg",
+      "price": "10,660,000",
+      "oldPrice": "10,800,000",
+      "available": true,
+      "colors": ["#000000"]
+    }
+  ],
+
+  "bestSellingProducts": [
+    {
+      "id": 1,
+
+      "colors": ["#0000FF"],
+      "image": "/images/battrey-xiaomi-11.jpg",
+      "category": "باتری آلکالاین",
+      "title": "باتری قلمی 10تایی شیائومی مدل Xiao...",
+      "price": "890,000",
+      "oldPrice": "",
+      "available": true
+    },
+    {
+      "id": 2,
+
+      "colors": ["#000000"],
+      "image": "/images/Untitled-1.jpg",
+      "category": "ماوس و کیبورد و پدموس",
+      "title": "کیبورد بلوتوثی مافی مدل Mofii Phoe...",
+      "price": "2,990,000",
+      "oldPrice": "3,190,000",
+      "available": true
+    },
+    {
+      "id": 3,
+
+      "colors": ["#000000"],
+      "image": "/images/0088-1.jpg",
+      "category": "هندزفری بلوتوثی",
+      "title": "هندزفری بلوتوثی ورزشی القایی پاورولوژی...",
+      "price": "4,800,000",
+      "oldPrice": "5,100,000",
+      "available": true
+    },
+    {
+      "id": 4,
+
+      "colors": ["#000000", "#FFFFFF"],
+      "image": "/images/Untitled-1.jpg",
+      "category": "شارژر دیواری",
+      "title": "شارژر دیواری گان 100 واتی الدینیو ...",
+      "price": "4,500,000",
+      "oldPrice": "5,500,000",
+      "available": true
+    },
+    {
+      "id": 5,
+
+      "colors": ["#C0C0C0"],
+      "image": "/images/VER-810-1.jpg",
+      "category": "فلش مموری",
+      "title": "فلش مموری وریتی ظرفیت 64 گیگ مدل V...",
+      "price": "950,000",
+      "oldPrice": "1,103,000",
+      "available": true
+    },
+    {
+      "id": 6,
+
+      "colors": ["#C0C0C0"],
+      "image": "/images/VER-810-1.jpg",
+      "category": "فلش مموری",
+      "title": "فلش مموری وریتی ظرفیت 16 گیگ مدل V...",
+      "price": "620,000",
+      "oldPrice": "650,000",
+      "available": true
+    },
+    {
+      "id": 7,
+
+      "colors": ["#FFFFFF"],
+      "image": "/images/3135123-3.jpg",
+      "category": "لوازم جانبی موبایل و کامپیوتر",
+      "title": "شارژر دیواری راوپاور 20 واتی گان5 ...",
+      "price": "1,350,000",
+      "oldPrice": "1,850,000",
+      "available": true
+    },
+    {
+      "id": 8,
+
+      "colors": ["#000000"],
+      "image": "/images/POMP-GREEN-11.jpg",
+      "category": "انواع گجت های جذاب",
+      "title": "پمپ باد گرین INFLATOR مدل Green Li...",
+      "price": "6,720,000",
+      "oldPrice": "7,500,000",
+      "available": true
+    },
+    {
+      "id": 9,
+
+      "colors": ["#000000", "#FFFFFF"],
+      "image": "/images/MCDODO-4100-11.jpg",
+      "category": "شارژر دیواری",
+      "title": "شارژر دیواری 67 واتی گان با کابل ت...",
+      "price": "4,264,000",
+      "oldPrice": "4,500,000",
+      "available": true
+    },
+    {
+      "id": 10,
+
+      "colors": ["#000000", "#FFFFFF"],
+      "image": "/images/HADRON-25W-22.jpg",
+      "category": "شارژر دیواری",
+      "title": "شارژر دیواری 25 وات هادرون مدل Had...",
+      "price": "1,470,000",
+      "oldPrice": "1,500,000",
+      "available": true
+    },
+    {
+      "id": 11,
+
+      "colors": ["#0000FF"],
+      "image": "/images/battrey-xiaomi-NIM-1161.jpg",
+      "category": "باتری آلکالاین",
+      "title": "باتری نیم قلم 10 تایی شیائومی مدل ...",
+      "price": "890,000",
+      "oldPrice": "",
+      "available": true
+    }
+  ],
+
+  "popularBrands": [
+    {
+      "id": 1,
+
+      "image": "/images/logo-1.jpg",
+      "title": "انکر"
+    },
+    {
+      "id": 2,
+
+      "image": "/images/Untitled-159.jpg",
+      "title": "راوپاور"
+    },
+    {
+      "id": 3,
+
+      "image": "/images/H64c19886758b40378c31d5f46c5ae984A.jpg",
+      "title": "مک دودو"
+    },
+    {
+      "id": 4,
+
+      "image": "/images/somo logo.png",
+      "title": "سومو"
+    },
+    {
+      "id": 5,
+
+      "image": "/images/logp.jpg",
+      "title": "کملیون"
+    },
+    {
+      "id": 6,
+
+      "image": "/images/logo.jpg",
+      "title": "پاورولوژی"
+    },
+    {
+      "id": 7,
+
+      "image": "/images/Untitled-1 (2).jpg",
+      "title": "ایس فست"
+    }
+  ],
+
+  "articles": [
+    {
+      "id": 1,
+
+      "image": "/images/w07-hero-wm92.jpg",
+      "title": "مشکل کابل شارژ آیفون؛ علت‌های رایج و راه‌حل‌های عملی"
+    },
+    {
+      "id": 2,
+
+      "image": "/images/active-imessege-1 (1).jpg",
+      "title": "راهنمای رفع مشکل فعال نشدن ای مسیج با شماره + راهکار تست شده"
+    },
+    {
+      "id": 3,
+
+      "image": "/images/52387652-1.jpg",
+      "title": "مقایسه و بررسی هندزفری لیبرتی ۵ پرو و لیبرتی ۵ پرومکس انکر"
+    },
+    {
+      "id": 4,
+
+      "image": "/images/image-dastresi-featured-1.jpg",
+      "title": "راهنمای انتخاب و خرید بهترین شارژر برای سامسونگ S26 Ultra"
+    },
+    {
+      "id": 5,
+
+      "image": "/images/car-charger-buying-guide-top-10-dastresi-featured-1.jpg",
+      "title": "راهنمای خرید شارژر فندکی خودرو + ۱۰ مدل برتر"
+    },
+    {
+      "id": 6,
+
+      "image": "/images/power-bank-wont-charge-fix-dastresi-featured-1.jpg",
+      "title": "راهنمای قدم به قدم علت شارژ نشدن پاوربانک + رفع مشکل"
+    },
+    {
+      "id": 7,
+
+      "image": "/images/jump-starter-how-it-works-dastresi-featured-4.jpg",
+      "title": "جامپ استارتر چیست و چطور کار می‌کنه؟"
+    },
+    {
+      "id": 8,
+
+      "image": "/images/phone-is-heated-lighter-charger-dastresi-1.jpg",
+      "title": "دلیل داغ شدن گوشی توسط شارژر فندکی | علت + راه‌حل"
+    }
+  ]
+}
