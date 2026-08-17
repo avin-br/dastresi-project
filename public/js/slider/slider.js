@@ -12,6 +12,7 @@ function Slider() {
       return response.json();
     })
     .then(function (data) {
+      console.log(data);
       data.slider.forEach(function (item) {
         let slide = document.createElement("div");
 

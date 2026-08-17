@@ -352,27 +352,27 @@
   "slider": [
     {
       "id": 1,
-      "image": "/images/slider1.jpg",
+      "image": "/dastresi-project/images/slider1.jpg"
       "alt": "بنر اول"
     },
     {
       "id": 2,
-      "image": "/images/slider2.jpg",
+      "image": "/dastresi-project/images/slider2.jpg",
       "alt": "بنر دوم"
     },
     {
       "id": 3,
-      "image": "/images/slider3.jpg",
+      "image": "/dastresi-project/images/slider3.jpg",
       "alt": "بنر سوم"
     },
     {
       "id": 4,
-      "image": "/images/slider4.jpg",
+      "image": "/dastresi-project/images/slider4.jpg",
       "alt": "بنر چهارم"
     },
     {
       "id": 5,
-      "image": "/images/slider5.jpg",
+      "image": "/dastresi-project/images/slider5.jpg",
       "alt": "بنر پنجم"
     }
   ],
