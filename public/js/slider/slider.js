@@ -7,12 +7,12 @@ import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 function Slider() {
   let sliderWrapper = document.getElementById("slider-wrapper");
 
-  fetch("http://localhost:3000/slider")
+  fetch("/dastresi-project/db.json")
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
-      data.forEach(function (item) {
+      data.slider.forEach(function (item) {
         let slide = document.createElement("div");
 
         slide.classList.add("swiper-slide");
